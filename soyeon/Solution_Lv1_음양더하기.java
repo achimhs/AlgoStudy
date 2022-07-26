@@ -12,7 +12,7 @@ public class Solution_Lv1_음양더하기 {
 			} else {
 				answer -= absolutes[i];
 			}
-			//answer += absolutes[i] * (signs[i]? 1: -1);
+			// answer += absolutes[i] * (signs[i]? 1: -1);
 		}
 		return answer;
 	}
