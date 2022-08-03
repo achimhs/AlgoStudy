@@ -18,6 +18,21 @@ public class Solution_Lv1_하샤드수 {
 	}
 }
 
-// 금 4시
-// 코테 집중
-// 기업은행 노랭이 다시풀기
+//class Solution {
+//	public boolean solution(int x) {
+//		String xts = x + "";
+//		int sum = 0;
+//		int[] arr = new int[xts.length()];
+//		// String[] strArr = xts.split("");
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			sum += xts.charAt(i) - '0';
+//		}
+//
+//		if (x % sum == 0) {
+//			return true;
+//		} else {
+//			return false;
+//		}
+//	}
+//}

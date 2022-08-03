@@ -23,7 +23,7 @@ public class Solution_Lv1_K번째수 {
 			}
 			int idx = 0;
 			for (int t = i; t <= j; t++) {
-				temp[idx] += array[t - 1];
+				temp[idx] += array[t - 1];//t+i
 				idx++;
 			}
 			Arrays.sort(temp); // 정렬

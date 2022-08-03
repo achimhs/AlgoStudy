@@ -4,9 +4,7 @@ import java.util.HashMap;
 
 public class Solution_Lv1_완주하지못한선수 {
 	/*
-	 * getOrDefault() 
-	 * HashMap<>은 키와 값인데 처음에 값먼저 나와도 되나?
-	 * 정렬->
+	 * getOrDefault(p,0)+1:p값이 존재하면 0을 아니면 1을 
 	 */
 	public String solution(String[] participant, String[] completion) {
 		String answer = "";
